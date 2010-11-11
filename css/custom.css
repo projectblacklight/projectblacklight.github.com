@@ -1,0 +1,47 @@
+
+/****
+.container 		{  }
+
+a 				{ color: #00487D; }
+a:hover			{ color: #7B0F0F; }
+****/
+
+/*-----------------------------------------------------------------------------
+	Header
+	Add a graphic logo, using the following CSS
+-----------------------------------------------------------------------------*/
+
+
+
+#header {
+	background: url('/images/logo.png') 50px 1px no-repeat;
+	height: 100px;
+}
+
+#header h1		 { display: none;  }
+#header .description { display: none; }
+
+
+/*-----------------------------------------------------------------------------
+	Navigation Colors
+	Customize the navbar with this CSS
+-----------------------------------------------------------------------------*/
+
+.container {
+	border-top:3px solid #6A9AD4;
+	padding-top:10px;
+	width:820px;
+}
+
+#nav, #subnav	{ background: #6A9AD4; }
+
+#nav li.current_page_item a,
+#nav li a:hover 	{ background: #4D4D4D; color: #FFF;}
+
+#nav li a,
+#subnav li a 	{ color: #FFF; }
+
+#nav li.current_page_item a,
+#subnav li.current_page_item a,
+#subnav li a:hover 	{ color: #FFF; }
+
