@@ -1,0 +1,36 @@
+---
+layout: post
+title: Blacklight 2.5 released!
+---
+<p>Blacklight version 2.5 is now available on GitHub.  You can find the 2.5.0 tagged release at <a href="http://github.com/projectblacklight/blacklight/tree/v2.5.0">http://github.com/projectblacklight/blacklight/tree/v2.5.0</a>.</p>
+<p>We have taken steps to improve the installation process with a new an improved installer. Instructions for installation are at <a href="http://github.com/projectblacklight/blacklight/blob/v2.5.0/README.rdoc">http://github.com/projectblacklight/blacklight/blob/v2.5.0/README.rdoc</a>.  The process for installing the plugin, downloading/installing Solr, and downloading/indexing the test/sample data is all much more streamlined.</p>
+<p>Here are the other notable changes for Blacklight 2.5.</p>
+<p>Release Notes &#8211; Blacklight Plugin &#8211; Version 2.5</p>
+<h2>Bugs</h2>
+<ul>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-180">CODEBASE-180</a>] &#8211; Tabbing around in Blacklight does not show link outlines
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-180">CODEBASE-196</a>]  &#8211; Index action of CatalogController using Mash not SolrDocument</li>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-204">CODEBASE-204</a>]  &#8211; Command+Click not opening record links in new tab.</li>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-213">CODEBASE-213</a>]  &#8211; search_field parameter not preserved on sort/per_page change. </li>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-223">CODEBASE-223</a>]  &#8211; RefWorks export of non-ascii diacritics problem.</li>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-225">CODEBASE-225</a>]  &#8211; Sort and per page forms are generating action and controller hidden fields.</li>
+</ul>
+<h2>New Features/Improvements</h2>
+<ul>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-98">CODEBASE-98</a>]  &#8211; Get shareable EAD/MODS data.</li>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-136">CODEBASE-136</a>]  &#8211; Librarian MARC view.</li>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-175">CODEBASE-175</a>]  &#8211; Add cucumber features for show view of the CatalogController.</li>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-179">CODEBASE-179</a>]  &#8211; Blacklight version needs to be clearly identified.</li>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-189">CODEBASE-189</a>]  &#8211; Advanced Search plugin (separate install).</li>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-200">CODEBASE-200</a>]  &#8211; Upgrade version of SolrMarc that we ship with Blacklight to 2.1.</li>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-201">CODEBASE-201</a>]  &#8211; Better handling of Solr errors (More appropriate stack traces/status codes depending on environment).</li>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-205">CODEBASE-205</a>]  &#8211; Rake task for indexing test data to more flexibly execute from the app level and plugin level.</li>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-207">CODEBASE-207</a>]  &#8211; Add new Blacklight logo to plugin&#8217;s theme</li>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-208">CODEBASE-208</a>]  &#8211; SolrDocument extensions.</li>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-222">CODEBASE-222</a>]  &#8211; Upgrade to jQuery 1.4.2 | Add jQuery UI 1.8.1.</li>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-209">CODEBASE-209</a>]  &#8211; Make all old jQuery lightboxes use jQuery UI dialogs.</li>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-214">CODEBASE-214</a>]  &#8211; Add :show_in_simple_search option to search_field logic.</li>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-215">CODEBASE-215</a>]  &#8211; Change how we&#8217;re supplying facet limits to Solr.</li>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-216">CODEBASE-216</a>]  &#8211; Allow code to add JS, CSS, and other HTML head content, in a loosely coupled way.</li>
+	<li>[<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-218">CODEBASE-218</a>]  &#8211; Application level ApplicationController needs to require_dependency not require the plugin&#8217;s ApplicationController.</li>
+</ul>

@@ -1,0 +1,18 @@
+---
+layout: post
+title: 2.3 release
+---
+<p>The <a href="http://rubyforge.org/frs/?group_id=5235">2.3 release</a> has just been uploaded. We&#8217;re now releasing both a demo app, for people who are just getting started or doing a fresh installation, and a plugin, for people who want to update an existing installation or plug blacklight search and discovery into another rails app. Be sure to also read the updated <a href="http://blacklight.rubyforge.org">installation instructions</a> and rdocs. </p>
+<p>Here are the highlights of this release (paraphrased from the <a href="http://rubyforge.org/frs/shownotes.php?release_id=37464">official jira-generated release notes</a>): </p>
+<ol>
+	<li>installation instructions are now maintained in rdoc, and transformed to html with <a href="http://github.com/mislav/hanna/tree/master">hanna</a>. This makes our docs much more attractive and easy to search than they were previously. You can see the outcome at <a href="http://blacklight.rubyforge.org">http://blacklight.rubyforge.org</a>, where we publish our auto-generated rdocs.</li>
+	<li>The demo app now uses <a href="http://code.google.com/p/solrmarc/">solrmarc</a> for indexing marc records. The previous ruby-based marc indexer is still there, but the instructions direct users to the solrmarc-based rake task. Generally, we don&#8217;t want to duplicate effort with solrmarc. It makes sense for that project to handle all our marc indexing needs, and we&#8217;ll just maintain a rake task and a config file for the demo project.</li>
+	<li>Better graphic design for the demo app! You can see this in action at <a href="http://demo.projectblacklight.org">http://demo.projectblacklight.org</a></li>
+	<li>Better error handling</li>
+	<li>Capistrano deploy script for the demo app, which can be adapted for local deployment</li>
+	<li>We merged the home controller into the catalog controller so removing all your searches now takes you back to the front page</li>
+	<li>RefWorks and EndNote export</li>
+	<li>Email and SMS texting of records</li>
+	<li>Required gems are now vendored (i.e., distributed with the download), which we hope will make installation easier</li>
+</ol>
+<p>Give this release a try and let us know what you think! As always, please join us on the mailing list if you have questions. </p>
