@@ -127,7 +127,7 @@ h2 a 					{ color: #3B4A25; text-decoration: none; }
 	Sidebar
 -----------------------------------------------------------------------------*/
 
-#page 		{ background: url('../images/sidebar_bg.gif') right repeat-y; /* fake bg */ }
+#page 		{ background: url('/images/sidebar_bg.gif') right repeat-y; /* fake bg */ }
 #sidebar 	{ margin-left: 8px; /* lets us have border */ }
 #sidebar h2 { font-size: 1.3em; line-height: 1.2; }
 
