@@ -1,0 +1,16 @@
+---
+layout: post
+title: Site source control and blacklight
+---
+<p>I&#8217;ve been thinking about the best way to put Stanford&#8217;s blacklight application into our own source control.  I see three options:</p>
+<p>1.  Include the plugins in local source control.<br />
+Pro:   installing application from our source control is simple.<br />
+Con:   Using local source control for the plugins makes it challenging to update the plugin code from the external repositories.</p>
+<p>2.  don&#8217;t include the plugins in local source control.<br />
+Pro:   You can update the plugins using RoR built in scripts:  ruby  script/plugin update  (external_svn_url)<br />
+Con:  Extra steps to install local application.</p>
+<p>Note:  if doing this:   Do NOT put the empty &#8220;(yourapp)/vendor/plugins&#8221; directory into your local application&#8217;s subversion.**</p>
+<p>3.  use svn:externals  for the plugins.<br />
+Pro:   You&#8217;ll get the plugin code updates automagically, and you don&#8217;t have to muck about with them in your local subversion<br />
+Con:  You don&#8217;t have control over what version of the plugin you&#8217;re getting &#8211; it&#8217;s going to grab the latest from the external repos. This can be bad, specially when you&#8217;re using unstable code.   Also:  what if the plugins are in a git repository??</p>
+<p>For the record, I chose 2.    Post a comment to this blog post if you have input.</p>
