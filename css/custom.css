@@ -47,7 +47,10 @@ a:hover			{ color: #7B0F0F; }
 
 
 /* ----- GITHUB STYLING ---- */
-
+#download_button {
+  text-decoration: none;
+  margin-top: 1.4em;
+}
 #download_button,#download_button:visited{border:1px solid #d4d4d4;color:#666;display:block;float:right;font-size:15px;font-weight:bold;line-height:15px;margin-bottom:10px;padding:10px 15px 10px 16px;text-shadow:1px 1px 0 rgba(255,255,255,0.7);border-radius:5px;background:#ececec;background:-webkit-gradient(linear,center bottom,center top,from(#ececec),to(#f4f4f4));background:-moz-linear-gradient(90deg,#ececec,#f4f4f4);-moz-border-radius:5px;-moz-box-shadow:0 1px 0 #ececec;-webkit-box-shadow:0 1px 0 #ececec;filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#f4f4f4',endColorstr='#ececec');}
 .has-downloads-no-desc #download_button,.has-downloads-no-desc #download_button:visited{margin-bottom:0;}
 #download_button .icon{background-image:url(http://github.com/images/icons/download.png);background-position:0 52%;background-repeat:no-repeat;line-height:15px;margin:0 4px 0 0;padding:0 0 0 20px;}
