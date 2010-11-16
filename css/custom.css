@@ -105,10 +105,10 @@ a:hover			{ color: #7B0F0F; }
 
 	.fader a {
 		background: transparent;
-		border: 1px solid white;
+		border: none;
 		font-size: 12px;
 		color: white;
-		padding: 5px 10px 4px;
+		padding: 0;
 		margin: 0;
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;
@@ -120,12 +120,16 @@ a:hover			{ color: #7B0F0F; }
 		}
 		
 /* Carousel */
+
 .gallery { 
 	width: 100%; 
 	position: relative; /* For IE */
 	overflow: hidden;
 	height: 400px;
 	z-index:100;
+	-moz-box-shadow: 1px 1px 15px #333;
+	-webkit-box-shadow: 1px 1px 15px #333;
+	-o-box-shadow: 1px 1px 15px #333;
 }
 
 .fader {
@@ -134,9 +138,6 @@ a:hover			{ color: #7B0F0F; }
 	display: block;
 	float: left;
 	position: relative;
-	-moz-box-shadow: 1px 1px 15px #333;
-	-webkit-box-shadow: 1px 1px 15px #333;
-	-o-box-shadow: 1px 1px 15px #333;
 }
 .fader li {	
 		width: 900px;
@@ -145,3 +146,28 @@ a:hover			{ color: #7B0F0F; }
 		display: block;
 		padding: 0; margin:0;
 	}
+.clicker {
+	display: block;
+	float: left;
+	margin: 20px 0 0 0;
+}
+
+	.clicker a {
+		background: transparent;
+		border: 1px solid #333;
+		font-size: 12px;
+		padding: 5px 10px 4px;
+		margin: 0;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		text-decoration: none;
+	}
+	
+		.clicker a:hover {
+			background: #EEE;
+		}
+
+		.billy-container {
+			margin-bottom: 5em;
+		}
+		
