@@ -66,6 +66,7 @@ a:hover			{ color: #7B0F0F; }
 	float: right;
 	display: block;
 	z-index: 90;
+		list-style:none; background: transparent;
 }
 
 .indicators li {
@@ -74,13 +75,14 @@ a:hover			{ color: #7B0F0F; }
 		height: 9px;
 		float: left;
 		margin: 0 5px 0 0;
+		list-style:none; background: transparent;
 	}
 		
 .indicators li a {
 			display: block;
 			width: 9px;
 			height: 9px;
-			background: #fff;
+			background: #000;
 			opacity: 0.4;
 			-moz-border-radius: 50px;
 			-webkit-border-radius: 50px;
