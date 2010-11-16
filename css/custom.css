@@ -99,6 +99,10 @@ a:hover			{ color: #7B0F0F; }
 	margin: 20px 0 0 0;
 }
 
+.fader li {
+  background: transparent;
+}
+
 	.fader a {
 		background: transparent;
 		border: 1px solid white;
@@ -117,7 +121,7 @@ a:hover			{ color: #7B0F0F; }
 		
 /* Carousel */
 .gallery { 
-	width: 900px; 
+	width: 100%; 
 	position: relative; /* For IE */
 	overflow: hidden;
 	height: 400px;
