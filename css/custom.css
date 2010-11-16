@@ -134,10 +134,14 @@ a:hover			{ color: #7B0F0F; }
 	display: block;
 	float: left;
 	position: relative;
+	-moz-box-shadow: 1px 1px 15px #333;
+	-webkit-box-shadow: 1px 1px 15px #333;
+	-o-box-shadow: 1px 1px 15px #333;
 }
 .fader li {	
 		width: 900px;
 		height: 400px;
 		float: left;
 		display: block;
+		padding: 0; margin:0;
 	}
