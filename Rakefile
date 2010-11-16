@@ -11,11 +11,12 @@ namespace :blacklight do
    end
    task :examples do
      require 'digest/md5'
-     urls = ['http://searchworks.stanford.edu/?q=blacklight&search_field=search', 'http://search.lib.virginia.edu/?f%5Bsource_facet%5D%5B%5D=Digital+Library&facets%5B%5D=library_facet&facets%5B%5D=format_facet&facets%5B%5D=recordings_and_scores_facet&facets%5B%5D=recording_format_facet&facets%5B%5D=instrument_facet&facets%5B%5D=music_composition_era_facet&facets%5B%5D=author_facet&facets%5B%5D=language_facet&facets%5B%5D=source_facet&facets%5B%5D=region_facet&facets%5B%5D=subject_facet&portal=music&sort=date_received_facet+desc', 'http://forward.library.wisconsin.edu/catalog?q=blacklight&qt=search&local=true', 'http://openvault.wgbh.org/catalog?f%5Bpbcore.title_Series%5D%5B%5D=Vietnam%3A+A+Television+History&q=&style=table&x=3&y=6' ]
+     urls = { 'http://searchworks.stanford.edu/?q=blacklight&search_field=search' => 'Stanford University', 'http://search.lib.virginia.edu/?f%5Bsource_facet%5D%5B%5D=Digital+Library&facets%5B%5D=library_facet&facets%5B%5D=format_facet&facets%5B%5D=recordings_and_scores_facet&facets%5B%5D=recording_format_facet&facets%5B%5D=instrument_facet&facets%5B%5D=music_composition_era_facet&facets%5B%5D=author_facet&facets%5B%5D=language_facet&facets%5B%5D=source_facet&facets%5B%5D=region_facet&facets%5B%5D=subject_facet&portal=music&sort=date_received_facet+desc' => 'University of Virginia', 'http://forward.library.wisconsin.edu/catalog?q=blacklight&qt=search&local=true' => 'University of Wisconsin-Madison', 'http://openvault.wgbh.org/catalog?f%5Bpbcore.title_Series%5D%5B%5D=Vietnam%3A+A+Television+History&q=&style=table&x=3&y=6' => 'Open Vault (WGBH Media Library and Archives)', 'http://historicalstate.lib.ncsu.edu/catalog?f[decade_facet][]=2010s' => 'Historical State (NCSU Libraries)', 'http://nwda.projectblacklight.org/?f[format_facet][]=Postcards' => 'Northwest Digital Archives' }
      s = '<ul class="fader">' + "\n"
-     urls.each do |url|
-       `python bin/webkit2png.py -m --clipwidth 532 --clipheight 400 --delay 2 -D images/screenshots -s 0.70 "#{url}"`
-       s += '<li><a href="' + url + '"><img src="/images/screenshots/' + Digest::MD5.hexdigest(url) + '-clipped.png" /></a></li>' + "\n"
+     urls.each do |url, title|
+       name = Digest::MD5.hexdigest(url)
+       `python bin/webkit2png.py -o #{name} --clipwidth 532 --clipheight 400 --delay 2 -D images/screenshots -s 0.70 "#{url}"`
+       s += '<li><a href="' + url + '"><img src="/images/screenshots/' + name + '-clipped.png" /></a><div class="title">' + title + '</div></li>' + "\n"
      end
      s += "</ul>"
 
