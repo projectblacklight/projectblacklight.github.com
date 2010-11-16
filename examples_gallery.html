@@ -1,0 +1,67 @@
+---
+layout: default
+title: Examples 
+---
+		<div class="post" id="post-6">
+		<h2>Examples</h2>
+			<div class="entry">
+				<p>You can see a demonstration of the generic Blacklight plugin at <a href="http://demo.projectblacklight.org/">http://demo.projectblacklight.org</a></p>
+
+				<div class="gallery">
+					<ul class="fader">
+						<li><img src="/images/screenshots/demoprojectblacklightorg-full.png" /></li>
+						<li><img src="images/screenshots/demoprojectblacklightorgcatalog2008308201-full.png" /></li>
+						<li><img src="images/screenshots/demoprojectblacklightorgf5Bpub_date5D5B5D2008-full.png" /></li>
+						<li><img src="images/screenshots/forwardlibrarywisconsineducatalogqblacklightqtsearchlocaltrue-full.png" /></li>
+						<li><img src="images/screenshots/openvaultwgbhorgcatalogf5Bpbcoretitle_Series5D5B5DVietnam3AATelevisionHistoryqstyletablex3y6-full.png" /></li>
+						<li><img src="images/screenshots/searchlibvirginiaeduf5Bsource_facet5D5B5DDigitalLibrary-full.png" /></li>
+						<li><img src="images/screenshots/searchworksstanfordeduqblacklightsearch_fieldsearch-full.png" /></li>
+
+
+					</ul>
+						
+		<!-- Now for the optional stuff... -->
+		
+		<!-- The indicators will automatically added to this list as basic <li></li> tags, with the class 'active' when activated -->
+		<ul class="indicators">
+		</ul>
+		
+		<!-- The Next/Prev links are independent and can be anywhere on the page -->
+		<div class="clicker">
+		<a href="#" id="fader_billy_prev">Prev</a>
+		<a href="#" id="fader_billy_next">Next</a>
+		</div>
+
+				</div>
+<h3>Agriculture Network Information Center</h3>
+<p><a href="http://www.agnic.org/search">http://www.agnic.org/search</a></p>
+<h3>Historical State (NCSU Libraries)</h3>
+<p><a href="http://historicalstate.lib.ncsu.edu">http://historicalstate.lib.ncsu.edu</a></p>
+<h3>Northwest Digital Archives</h3>
+<p><a href="http://nwda.projectblacklight.org">http://nwda.projectblacklight.org</a></p>
+<h3>Stanford University</h3>
+<p><a href="http://searchworks.stanford.edu">http://searchworks.stanford.edu</a></p>
+<h3>University of Virginia</h3>
+<p><a href="http://blacklight.betech.virginia.edu">Development instance</a> (newest features, but least tested and stable)</p>
+<p><a href="http://virgobeta.lib.virginia.edu">Semi-production instance</a> (only well tested and stable features, updated about once per month)</p>
+<h3>University of Wisconsin-Madison</h3>
+<p><a href="http://disco.library.wisc.edu/forward/">Demo app</a></p>
+<h3>WGBH Open Vault</h3>
+<p><a href="http://openvault.wgbh.org">http://openvault.wgbh.org</a></p>
+
+				
+			</div>
+		</div>
+	<script type="text/javascript" src="/js/billy.carousel.jquery.min.js"></script>
+<script type="text/javascript">
+$(function() {
+  $('.gallery .fader').billy({
+	transition: 'fade',
+	slidePause: 5000,
+	nextLink:  $('#fader_billy_next'),
+	prevLink: $('#fader_billy_prev'),
+	indicators: $('.indicators')
+});
+});
+</script>
+			
