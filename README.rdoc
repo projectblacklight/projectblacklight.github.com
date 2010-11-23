@@ -1,7 +1,7 @@
 == Adding a new instance to the gallery
 To add a new example to the gallery, run the included rake task. 
 
-```
+```console
 $ rake blacklight:examples:add url=http://projectblacklight.org/examples_gallery.html title="This is just a test"
 (in /Volumes/Scratch/projectblacklight.github.com)
 Generating screengrabs...
