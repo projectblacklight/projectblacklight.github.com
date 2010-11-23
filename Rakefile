@@ -19,7 +19,7 @@ namespace :blacklight do
      url = ENV['url']
      name = Digest::MD5.hexdigest(url)
      title = ENV['title'] || '<!-- Add a short caption here -->'
-     if RUBY_PLATFORM.downcase.include?("darwin")
+     if false && RUBY_PLATFORM.downcase.include?("darwin")
      print 'Generating screengrabs...' + "\n"
      `python bin/webkit2png.py -o #{name} --clipwidth 532 --clipheight 400 --delay 2 -D images/screenshots -s 0.70 "#{url}"`
      print "-- Preview the automatically generated screenshots and add them to the repository: `git add images/screenshots/#{name}*`" + "\n"
@@ -27,7 +27,7 @@ namespace :blacklight do
        print "-- Take a screenshot of the example and save a 532x400 PNG image as \"./images/screenshots/#{name}-clipped.png\"" + "\n"
      end
 
-     print "-- Add this line to ./_includes/examples_gallery.html" + "\n"
+     print "-- Add this line to ./_includes/examples_gallery.html:" + "\n"
 
      print '<li><a href="' + url + '"><img src="/images/screenshots/' + name + '-clipped.png" /></a><div class="title">' + title + '</div></li>' + "\n"
 
