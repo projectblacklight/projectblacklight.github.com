@@ -1,13 +1,14 @@
 == Adding a new instance to the gallery
 To add a new example to the gallery, run the included rake task. 
 
+```
 $ rake blacklight:examples:add url=http://projectblacklight.org/examples_gallery.html title="This is just a test"
 (in /Volumes/Scratch/projectblacklight.github.com)
 Generating screengrabs...
 -- Preview the automatically generated screenshots and add them to the repository: `git add images/screenshots/0b4edccc3020006ac1f1924eb9c1ec13*`
 -- Add this line to ./_includes/examples_gallery.html
 <li><a href="http://projectblacklight.org/examples_gallery.html"><img src="/images/screenshots/0b4edccc3020006ac1f1924eb9c1ec13-clipped.png" /></a><div class="title">This is just a test</div></li>
-
+```
 
 On Mac OS X, the bundled `webkit2png` script will create the appropriate screenshots, however users on other platforms will have to do this manually. Then add the generated thumbnails to git and edit the `./_includes/examples_gallery.html` to include the new image.
 
