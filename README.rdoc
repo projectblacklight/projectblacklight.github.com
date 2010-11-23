@@ -1,3 +1,5 @@
+= projectblacklight.org
+
 == Adding a new instance to the gallery
 To add a new example to the gallery, run the included rake task. 
 
