@@ -25,6 +25,10 @@ module BlacklightInstaller
     exit 0
   end
   
+  def warn msg
+    output "Warning: " + msg, :red
+  end
+  
   # the bin/blacklight executable defines #blacklight_root
   def gem_install?
     respond_to? :blacklight_root
@@ -262,6 +266,15 @@ extend BlacklightInstaller
 @tag = {{ page.tag }}
 @branch = {{ page.branch }}
 @install_dir_name = 'blacklight'
+
+unless Rails.version == "2.3.5"
+  warn "You are using Rails #{Rails.version}. Rails version 2.3.5 is currently recommended for Blacklight. 2.3.6 through 2.3.10 all have known bugs effecting Blacklight. Blacklight does not yet work with 3.x."  
+  unless yes? "Proceed anyway?"
+    exit
+  end
+end
+    
+  
 
 error! "Halting... looks like Blacklight has been installed here..." if already_installed?
 
