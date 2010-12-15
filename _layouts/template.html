@@ -267,12 +267,12 @@ extend BlacklightInstaller
 @branch = {{ page.branch }}
 @install_dir_name = 'blacklight'
 
-unless Rails.version == "2.3.5"
-  warn "You are using Rails #{Rails.version}. Rails version 2.3.5 is currently recommended for Blacklight. 2.3.6 through 2.3.10 all have known bugs effecting Blacklight. Blacklight does not yet work with 3.x."  
-  unless yes? "Proceed anyway?"
-    exit
-  end
-end
+#unless Rails.version == "2.3.5"
+#  warn "You are using Rails #{Rails.version}. Rails version 2.3.5 is currently recommended for Blacklight. 2.3.6 through 2.3.10 all have known bugs effecting Blacklight. Blacklight does not yet work with 3.x."  
+#  unless yes? "Proceed anyway?"
+#    exit
+#  end
+#end
     
   
 
