@@ -142,6 +142,7 @@ module BlacklightInstaller
     end
   end
   
+  
   # ask about installing apache solr
   def install_solr?
     if yes? "Would you like to install and configure Apache Solr now?"
@@ -156,11 +157,19 @@ module BlacklightInstaller
       output "Copying SolrMarc configs to config/SolrMarc"
       FileUtils.cp_r "#{install_path}/config/SolrMarc", 'config/SolrMarc'
       
-      output "To index the test data into the plugin level solr for testing purposes execute:", :yellow
-      output "rake solr:marc:index_test_data RAILS_ENV=test".colorize(:mode => :swap)
+      if yes? "Would you like to index the test data so you can run Blacklight's rspec and cucumber tests? (only answer yes if you would like to run the tests)"
+        run "rake solr:marc:index_test_data RAILS_ENV=test"
+      else
+        output "To index the test data into the plugin level solr for testing purposes execute:", :yellow
+        output "rake solr:marc:index_test_data RAILS_ENV=test".colorize(:mode => :swap)
+      end
       
-      output "To index the data for you application level solr for development purposes execute:", :yellow
-      output "rake solr:marc:index_test_data".colorize(:mode => :swap)
+      if yes? "Would you like to index the demo data to start your application off with a 30 MARC record index?"
+          run "rake solr:marc:index_test_data"
+      else
+        output "To index the data for you application level solr for development purposes execute:", :yellow
+        output "rake solr:marc:index_test_data".colorize(:mode => :swap)
+      end
       
     else
       output "Skipping Solr installation..."
@@ -176,7 +185,7 @@ module BlacklightInstaller
     # ask about migrating...
     rake "db:migrate" if yes? "Would you like to run the initial database migrations now?"
   end
-  
+
   def yes? text
     super text.colorize(:light_blue)
   end
