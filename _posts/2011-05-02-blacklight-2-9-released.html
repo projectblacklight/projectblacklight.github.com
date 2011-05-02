@@ -1,0 +1,27 @@
+---
+layout: post
+title: Blacklight 2.9 released!
+---
+
+This is a relatively minor release, however it will be the last release that
+supports Rails 2. Shortly after this release, the "master" branch of
+Blacklight will be Rails 3 only.  Future releases will distributed as Rails
+3-compatible gems. Details on this migration, and documentation to assist
+implementors during the migration process will be forthcoming.
+
+For Blacklight 2.9.0, the major feature is the solr_search_params refactor
+(<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE-307">CODEBASE-307</a> and documented
+on 
+<a href="https://github.com/projectblacklight/blacklight/wiki/Extending-or-Modifying-Blacklight-Search-Behavior">the wiki</a>). For implementations that heavily customized
+the search experience, be sure to read the documentation around this new
+feature and update your applications accordingly.
+
+There are also a handful of bug fixes, mainly in the test suite.
+
+The JIRA issues are at
+<a href="http://jira.projectblacklight.org/jira/browse/CODEBASE/fixforversion/10071">Blacklight 2.9 release</a>
+
+Also, the GitHub compare view of this release vs. our last release is
+located at <a href="http://github.com/projectblacklight/blacklight/compare/v2.8.0...v2.9.0">v2.8.0...v.2.9.0</a>
+
+
