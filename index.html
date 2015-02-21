@@ -1,0 +1,59 @@
+---
+title: Home
+categories: [pages]
+id: main
+layout: default
+---
+    <div class="main-container">
+      <div class="main clearfix">
+        <article>
+          <header class="main-blurb">
+            <div class="wrapper">
+              <h1>Blacklight</h1>
+              <p></p>
+              <p class="buttons">
+                <a class="button-primary-brand" href="https://github.com/projectblacklight/blacklight/wiki/Quickstart">Learn how to get started</a>
+                <a class="button-primary-brand" href="#examples">Examples</a>
+              </p>
+            </div>
+          </header>
+<!--
+          <section class="main-highlight-blurbs">
+            <div class="wrapper">
+              <div class="highlight community-driven">
+                <h2><a href="community.html">Community Driven</a></h2>
+                <p>Blacklight is driven by a group of research libraries, national libraries, and others committed to opening access to resources.</p>
+              </div>
+              <div class="highlight plug-n-play">
+                <h2><a href="apps-demos.html">Plug ’n’ Play Software</a></h2>
+                <p>Blacklight encourages and supports the development of compatible plugins that are easy to install and provides enhanced user experience.</p>
+              </div>
+            </div>
+          </section>
+-->
+
+          <section id="examples" class="showcase wrapper">
+            <div class="isotope-container">               
+              {% for item in site.data.showcase %}
+              <div class="isotope-item"  ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                  <div class="front">
+                    <img src="{{ item.img_url }}">
+                    <p>{{ item.name }}</p>
+                  </div>
+                  <div class="back">
+                    <p><strong><a href="{{item.url}}">{{ item.name }}</a></strong></p>
+                    <p class="desc">{{ item.desc }}</p>
+                    <p>
+                      {% if item.github_url %} <a href="{{ item.github_url }}" target="_blank" class="button-primary-brand">GitHub</a> {% endif %}
+                      {% if item.url %} <a href="{{ item.url }}" class="button-primary-brand">Learn more</a> {% endif %}
+                    </p>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </section>
+        </article>
+      </div> <!-- #main -->
+    </div> <!-- #main-container -->

@@ -1,0 +1,96 @@
+- name: demo.projectblaklight.org
+  id: demo-projectblacklight-org
+  img_url: images/showcase/demo.projectblacklight.org.png
+  desc:
+  - >
+    Out-of-the-box vanilla demo of core Blacklight features.
+  url: http://demo.projectblacklight.org
+
+- name: Academic Commons
+  id: academic-commons
+  img_url: images/showcase/academiccommons.columbia.edu.png
+  desc:
+  - >
+    Columbia University's digital repository where faculty, students, and staff of Columbia and its affiliate institutions can deposit the results of their scholarly work and research.
+  url: http://academiccommons.columbia.edu
+- name: Rock and Roll Hall of Fame
+  id: catalog-rockhall-com-png
+  img_url: images/showcase/catalog.rockhall.com.png
+  desc: A portal to search both library and archival collections of the Rock and Roll Hall of Fame
+  url: http://catalog.rockhall.com/
+- name: Catalyst @ Johns Hopkins Libraries
+  id: catalyst-library-jhu-edu-png
+  img_url: images/showcase/catalyst.library.jhu.edu.png
+  desc: ''
+  url: http://catalyst.library.jhu.edu/
+- name: CLIO
+  id: clio-columbia-edu-png
+  img_url: images/showcase/clio.columbia.edu.png
+  desc: A unified discovery system which provides a single search interface that spans both local information sources such as our Catalog, web site, and Academic Commons as well as remotely hosted services such as the 991 million item Summon article database.
+  url: http://clio.columbia.edu/
+- name: Yale Collection of Musical Instruments
+  id: collection-media-yale-edu-png
+  img_url: images/showcase/collection-media.yale.edu.png
+  desc: ''
+  url: http://collection-media.yale.edu/
+- name: "US National Library of Medicine: Digital Collections"
+  id: collections-nlm-nih-gov-png
+  img_url: images/showcase/collections.nlm.nih.gov.png
+  desc: ''
+  url: http://collections.nlm.nih.gov/
+- name: United States Holocaust Memorial Museum
+  id: collections-ushmm-org-png
+  img_url: images/showcase/collections.ushmm.org.png
+  desc: Collections Search is the primary method for searching and discovering the Collections of the United States Holocaust Memorial Museum. Our goal is to provide comprehensive, effective, and convenient access to our collection catalogs.
+  url: http://collections.ushmm.org/
+- name: NCSU Libraries' Digital Collections
+  id: d-lib-ncsu-edu-png
+  img_url: images/showcase/d.lib.ncsu.edu.png
+  desc: From the history of NC State to the history of North Carolina's built environment, these digital collections provide network access to collections that drive research, highlight innovation, and inspire learning.
+  url: http://d.lib.ncsu.edu/
+- name: Stanford's Online Exhibits
+  id: exhibit-stanford-edu-png
+  img_url: images/showcase/exhibit.stanford.edu.png
+  desc: Notable collections showcased by Stanford librarians, archivists, and other curators
+  url: http://exhibit.stanford.edu/
+- name: DTU Findit — Your digital library
+  id: findit-dtu-dk-png
+  img_url: images/showcase/findit.dtu.dk.png
+  desc: Search millions of academic articles.
+  url: http://findit.dtu.dk/
+- name: French Revolution Digital Archive
+  id: frda-stanford-edu-png
+  img_url: images/showcase/frda.stanford.edu.png
+  desc: A digital version of the key research sources of the French Revolution and make them available to the international scholarly community. 
+  url: http://frda.stanford.edu/
+- name: Cornell University Library Catalog
+  id: newcatalog-library-cornell-edu-png
+  img_url: images/showcase/newcatalog.library.cornell.edu.png
+  desc: ''
+  url: http://newcatalog.library.cornell.edu/
+- name: Revs Digital Library
+  id: revslib-stanford-edu-png
+  img_url: images/showcase/revslib.stanford.edu.png
+  desc: Connecting the past, present and future of the automobile
+  url: http://revslib.stanford.edu/
+- name: Penn State ScholarSphere
+  id: scholarsphere-psu-edu-png
+  img_url: images/showcase/scholarsphere.psu.edu.png
+  desc: Faculty, students, and staff can use ScholarSphere to collect their work in one location and create a durable and citable record of their papers, presentations, publications, data sets, or other scholarly creations.
+  url: http://scholarsphere.psu.edu/
+- name: University of Virginia Library Catalog
+  id: search-lib-virginia-edu-png
+  img_url: images/showcase/search.lib.virginia.edu.png
+  desc: Virgo contains both the catalog—with materials like books, print journals, DVDs, maps, and digitized materials— and online articles from our rich array of subscription journals.
+  url: http://search.lib.virginia.edu/
+- name: Stanford University Library Catalog
+  id: searchworks-stanford-edu-png
+  img_url: images/showcase/searchworks.stanford.edu.png
+  desc: Stanford University Libraries' official online search tool for books, media, journals, databases, government documents and more.
+  github_url: http://github.com/sul-dlss/searchworks/
+  url: http://searchworks.stanford.edu/
+- name: Prints & Photographs Online Catalog
+  id: wallachprintsandphotos-nypl-org-png
+  img_url: images/showcase/wallachprintsandphotos.nypl.org.png
+  desc: Prints and photographs online catalog of the Miriam and Ira D. Wallach Division of Art, Prints, and Photographs
+  url: http://wallachprintsandphotos.nypl.org/
