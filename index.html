@@ -1,19 +1,59 @@
 ---
+title: Home
+categories: [pages]
+id: main
 layout: default
-title: Project Blacklight
 ---
-<div class="post" id="post-82">
-		<h2>What is Blacklight?</h2>
-			<div class="entry">
-				<p>Blacklight is an open source Ruby on Rails gem that provides a discovery interface for any <a href="http://lucene.apache.org/solr/">Solr</a> index. Blacklight provides a default user interface which is customizable via the standard Rails (templating) mechanisms. Blacklight accommodates heterogeneous data, allowing different information displays for different types of objects.</p>
-<h2>What are some of the features?</h2>
-<p>Blacklight uses <a href="http://lucene.apache.org/solr/">Apache Solr</a>, an enterprise-scale index for its search engine. Blacklight features faceted browsing, relevance based searching (with the ability to locally control the relevancy algorithms), bookmarkable items, permanent URLs for every item, user tagging of items.</p>
-<h2>Who uses it?</h2>
-<p>The University of Virginia, Stanford University, Johns Hopkins University, and WGBH are the principal contributors to the code base and use it heavily at their institutions. There are dozens of sites worldwide that use Blacklight; you can see a list of some of them on our <a href="https://github.com/projectblacklight/blacklight/wiki/Examples">Examples</a> page.</p>
-<h2>How do I get started?</h2>
-<p>Try installing Blacklight and indexing the sample data &#8212; our goal is for you to be able to get a demo running very quickly. Read the <a href="https://github.com/projectblacklight/blacklight/wiki/FAQs">FAQ</a>, join <a href="http://groups.google.com/group/blacklight-development">the mailing list</a>, and come talk to us on IRC. If you want to jump right in, installing Blacklight is as simple as following the instructions on the <a href="https://github.com/projectblacklight/blacklight/wiki/Quickstart">Quickstart Instructions</a>.</p>
+    <div class="main-container">
+      <div class="main clearfix">
+        <article>
+          <header class="main-blurb">
+            <div class="wrapper">
+              <h1>Blacklight</h1>
+              <p></p>
+              <p class="buttons">
+                <a class="button-primary-brand" href="https://github.com/projectblacklight/blacklight/wiki/Quickstart">Learn how to get started</a>
+                <a class="button-primary-brand" href="#examples">Examples</a>
+              </p>
+            </div>
+          </header>
+<!--
+          <section class="main-highlight-blurbs">
+            <div class="wrapper">
+              <div class="highlight community-driven">
+                <h2><a href="community.html">Community Driven</a></h2>
+                <p>Blacklight is driven by a group of research libraries, national libraries, and others committed to opening access to resources.</p>
+              </div>
+              <div class="highlight plug-n-play">
+                <h2><a href="apps-demos.html">Plug ’n’ Play Software</a></h2>
+                <p>Blacklight encourages and supports the development of compatible plugins that are easy to install and provides enhanced user experience.</p>
+              </div>
+            </div>
+          </section>
+-->
 
-				
-			</div>
-		</div>
-			
+          <section id="examples" class="showcase wrapper">
+            <div class="isotope-container">               
+              {% for item in site.data.showcase %}
+              <div class="isotope-item"  ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                  <div class="front">
+                    <img src="{{ item.img_url }}">
+                    <p>{{ item.name }}</p>
+                  </div>
+                  <div class="back">
+                    <p><strong><a href="{{item.url}}">{{ item.name }}</a></strong></p>
+                    <p class="desc">{{ item.desc }}</p>
+                    <p>
+                      {% if item.github_url %} <a href="{{ item.github_url }}" target="_blank" class="button-primary-brand">GitHub</a> {% endif %}
+                      {% if item.url %} <a href="{{ item.url }}" class="button-primary-brand">Learn more</a> {% endif %}
+                    </p>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </section>
+        </article>
+      </div> <!-- #main -->
+    </div> <!-- #main-container -->
