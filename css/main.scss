@@ -850,3 +850,17 @@ section.showcase {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
   }
+
+.main-blurb {
+  margin-bottom: 0;
+}
+
+.main-highlight-blurbs {
+  h1 {
+    text-align: center;
+  }
+
+  .highlight {
+    padding-top: 20px;
+  }
+}
