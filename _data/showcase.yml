@@ -28,6 +28,7 @@
   img_url: images/showcase/clio.columbia.edu.png
   desc: A unified discovery system which provides a single search interface that spans both local information sources such as our Catalog, web site, and Academic Commons as well as remotely hosted services such as the 991 million item Summon article database.
   url: http://clio.columbia.edu/
+  github_url: https://github.com/cul/clio-spectrum
 - name: Yale Collection of Musical Instruments
   id: collection-media-yale-edu-png
   img_url: images/showcase/collection-media.yale.edu.png
@@ -53,16 +54,19 @@
   img_url: images/showcase/exhibit.stanford.edu.png
   desc: Notable collections showcased by Stanford librarians, archivists, and other curators
   url: http://exhibit.stanford.edu/
+  github_url: https://github.com/sul-dlss/sul-exhibits-template
 - name: DTU Findit — Your digital library
   id: findit-dtu-dk-png
   img_url: images/showcase/findit.dtu.dk.png
   desc: Search millions of academic articles.
   url: http://findit.dtu.dk/
+  github_url: https://github.com/dtulibrary/toshokan
 - name: French Revolution Digital Archive
   id: frda-stanford-edu-png
   img_url: images/showcase/frda.stanford.edu.png
   desc: A digital version of the key research sources of the French Revolution and make them available to the international scholarly community. 
   url: http://frda.stanford.edu/
+  github_url: https://github.com/sul-dlss/frda
 - name: Cornell University Library Catalog
   id: newcatalog-library-cornell-edu-png
   img_url: images/showcase/newcatalog.library.cornell.edu.png
@@ -73,11 +77,13 @@
   img_url: images/showcase/revslib.stanford.edu.png
   desc: Connecting the past, present and future of the automobile
   url: http://revslib.stanford.edu/
+  github_url: https://github.com/sul-dlss/revs
 - name: Penn State ScholarSphere
   id: scholarsphere-psu-edu-png
   img_url: images/showcase/scholarsphere.psu.edu.png
   desc: Faculty, students, and staff can use ScholarSphere to collect their work in one location and create a durable and citable record of their papers, presentations, publications, data sets, or other scholarly creations.
   url: http://scholarsphere.psu.edu/
+  github_url: https://github.com/psu-stewardship/scholarsphere
 - name: University of Virginia Library Catalog
   id: search-lib-virginia-edu-png
   img_url: images/showcase/search.lib.virginia.edu.png
