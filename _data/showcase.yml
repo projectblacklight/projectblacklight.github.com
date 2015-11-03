@@ -64,7 +64,7 @@
 - name: French Revolution Digital Archive
   id: frda-stanford-edu-png
   img_url: images/showcase/frda.stanford.edu.png
-  desc: A digital version of the key research sources of the French Revolution and make them available to the international scholarly community. 
+  desc: A digital version of the key research sources of the French Revolution and make them available to the international scholarly community.
   url: http://frda.stanford.edu/
   github_url: https://github.com/sul-dlss/frda
 - name: Cornell University Library Catalog
@@ -100,3 +100,8 @@
   img_url: images/showcase/wallachprintsandphotos.nypl.org.png
   desc: Prints and photographs online catalog of the Miriam and Ira D. Wallach Division of Art, Prints, and Photographs
   url: http://wallachprintsandphotos.nypl.org/
+- name: Catholic Parish Registers at the NLI
+  id: registers-nli-ie-png
+  img_url: images/showcase/registers.nli.ie.png
+  desc: The National Library of Ireland's collection of Catholic parish registers, containing records of baptisms and marriages from the majority of Irish Catholic parishes up to 1880.
+  url: http://registers.nli.ie/
