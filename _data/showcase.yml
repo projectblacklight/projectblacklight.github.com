@@ -49,6 +49,10 @@
   img_url: images/showcase/d.lib.ncsu.edu.png
   desc: From the history of NC State to the history of North Carolina's built environment, these digital collections provide network access to collections that drive research, highlight innovation, and inspire learning.
   url: http://d.lib.ncsu.edu/collections
+- name: Europeana Collections
+  img_url: images/showcase/europeana.png
+  desc: Explore 53203536 artworks, artefacts, books, videos and sounds from across Europe.
+  url: http://www.europeana.eu/portal/
 - name: Stanford's Online Exhibits
   id: exhibit-stanford-edu-png
   img_url: images/showcase/exhibit.stanford.edu.png
