@@ -109,3 +109,8 @@
   img_url: images/showcase/registers.nli.ie.png
   desc: The National Library of Ireland's collection of Catholic parish registers, containing records of baptisms and marriages from the majority of Irish Catholic parishes up to 1880.
   url: http://registers.nli.ie/
+- name: Brown University Library
+  id: library-brown-edu
+  img_url: images/showcase/brown_library.png
+  desc: Josiah searches most of the journal, magazine, and newspaper resources available through Brown’s library databases, as well as our catalog (which includes most of the library's books and other physical holdings).
+  url: http://library.brown.edu/
