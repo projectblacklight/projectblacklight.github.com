@@ -114,3 +114,8 @@
   img_url: images/showcase/brown_library.png
   desc: Josiah searches most of the journal, magazine, and newspaper resources available through Brown’s library databases, as well as our catalog (which includes most of the library's books and other physical holdings).
   url: http://library.brown.edu/
+- name: Indiana University IUCAT
+  id: iucat-iu-edu
+  img_url: images/showcase/iucat.iu.edu.png
+  desc: IUCAT, Indiana University's online library catalog, provides comprehensive access to millions of items held by the IU Libraries statewide, including books, recordings, US government publications, periodicals, and other types of material.
+  url: http://iucat.iu.edu
