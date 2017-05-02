@@ -4,7 +4,7 @@
   desc:
   - >
     Out-of-the-box vanilla demo of core Blacklight features.
-  url: http://demo.projectblacklight.org
+  url: https://demo.projectblacklight.org
 
 - name: Academic Commons
   id: academic-commons
