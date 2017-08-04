@@ -5,6 +5,9 @@
   name: Wiki
   url: https://github.com/projectblacklight/blacklight/wiki
 -
+  name: Events
+  url: https://github.com/projectblacklight/blacklight/wiki/Blacklight-Summits-and-Events
+-
   name: Release Notes
   url: https://github.com/projectblacklight/blacklight/releases
 -

@@ -229,6 +229,15 @@ a.button-primary-brand {
   margin: 20px 0;
 }
 
+.kb {
+  height: 200px !important;
+}
+
+.kb img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
 .main-highlight-blurbs .plug-n-play {
   background-image: url('../img/icon-plug-n-play-60x60.png');
 }
