@@ -119,3 +119,8 @@
   img_url: images/showcase/iucat.iu.edu.png
   desc: IUCAT, Indiana University's online library catalog, provides comprehensive access to millions of items held by the IU Libraries statewide, including books, recordings, US government publications, periodicals, and other types of material.
   url: http://iucat.iu.edu
+- name: Linn-Benton Community College
+  id: libfind-linnbenton-edu
+  img_url: images/showcase/libfind.linnbenton.edu.png
+  desc: Find It is Linn-Benton Community College's discovery layer.  It connects many of our community's information silos and prepares our transfer students for upper-division research.
+  url: http://libfind.linnbenton.edu
