@@ -124,3 +124,9 @@
   img_url: images/showcase/libfind.linnbenton.edu.png
   desc: Find It is Linn-Benton Community College's discovery layer.  It connects many of our community's information silos and prepares our transfer students for upper-division research.
   url: http://libfind.linnbenton.edu
+- name: Vera & Donald Blinken Open Society Archives
+  id: catalog-osaarchivum-org
+  img_url: images/showcase/catalog.osaarchivum.org.png
+  desc: The online catalog of Vera & Donald Blinken Open Society Archives provides a search and discovery interface for our rich collection of archival holdings, library and film library materials and our digital repository assets.
+  url: http://catalog.osaarchivum.org
+
