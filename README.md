@@ -16,7 +16,7 @@ Source of the projectblacklight.org site
 
 ### Self-Service
 
-1. Add an entry to the YAML file under `source/_data/showcase.yml` with the following format:
+1. Add an entry to the YAML file under `./_data/showcase.yml` with the following format:
 
   ```ruby
   - name: Example Project
