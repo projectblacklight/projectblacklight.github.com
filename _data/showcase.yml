@@ -129,4 +129,13 @@
   img_url: images/showcase/catalog.osaarchivum.org.png
   desc: The online catalog of Vera & Donald Blinken Open Society Archives provides a search and discovery interface for our rich collection of archival holdings, library and film library materials and our digital repository assets.
   url: http://catalog.osaarchivum.org
-
+- name: Royal Danish Library - Digital collection
+  id: kb-digital-collection
+  img_url: images/showcase/kb-digital-collection.jpg
+  desc: Royal Danish Library's digital collection, comprised of old catalogues, political papers, maps, pictures, and much more.
+  url: digitalcollections.kb.dk
+- name: Archive for Danish literature
+  id: archive-for-danish-literature
+  img_url: images/showcase/archive-for-danish-literature.jpg
+  desc: Archive for Danish Literature is a literature history website for selected parts of the older Danish literature - from the Middle Ages to the middle of the 20th.
+  url: http://adl.dk/
