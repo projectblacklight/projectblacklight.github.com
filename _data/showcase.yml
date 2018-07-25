@@ -57,7 +57,7 @@
   id: exhibit-stanford-edu-png
   img_url: images/showcase/exhibit.stanford.edu.png
   desc: Notable collections showcased by Stanford librarians, archivists, and other curators
-  url: http://exhibit.stanford.edu/
+  url: http://exhibits.stanford.edu/
   github_url: https://github.com/sul-dlss/sul-exhibits-template
 - name: DTU Findit — Your digital library
   id: findit-dtu-dk-png
