@@ -139,3 +139,8 @@
   img_url: images/showcase/archive-for-danish-literature.jpg
   desc: Archive for Danish Literature is a literature history website for selected parts of the older Danish literature - from the Middle Ages to the middle of the 20th.
   url: http://adl.dk/
+- name: Phoebe A. Hearst Museum of Anthropology
+  id: phoebe-a-hearst-museum-of-anthropology
+  img_url: images/showcase/phoebe-a-hearst-museum.png
+  desc: The Hearst Museum Portal is a simplified gateway to publicly accessible data and images for all objects in the care of the University of California, Berkeley’s Phoebe A. Hearst Museum of Anthropology. We invite you to use the Hearst Museum Portal to explore and discover our collections.
+  url: https://portal.hearstmuseum.berkeley.edu/
