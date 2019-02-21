@@ -139,3 +139,9 @@
   img_url: images/showcase/archive-for-danish-literature.jpg
   desc: Archive for Danish Literature is a literature history website for selected parts of the older Danish literature - from the Middle Ages to the middle of the 20th.
   url: http://adl.dk/
+- name: Temple University Library
+  id: temple-university-library
+  url: https://librarysearch.temple.edu
+  github_url: https://github.com/tulibraries/tul_cob
+  img_url: images/showcase/librarysearch.temple.edu.png
+  desc: Temple University Library's official online search tool for books, media, journals, databases, and more.
