@@ -6,6 +6,11 @@
     Out-of-the-box vanilla demo of core Blacklight features.
   url: https://demo.projectblacklight.org
 
+- name: Harvard Digital Collections
+  id: harvard-digital-collections
+  img_url: images/showcase/digitalcollections.library.harvard.edu.png
+  desc: Harvard Digital Collections provides free, public access to over 6,000,000 digital objects from its collections – from ancient art to modern manuscripts and even audio/visual material.
+  url: https://digitalcollections.library.harvard.edu
 - name: Academic Commons
   id: academic-commons
   img_url: images/showcase/academiccommons.columbia.edu.png
