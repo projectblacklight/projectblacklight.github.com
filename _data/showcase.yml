@@ -155,4 +155,8 @@
   img_url: images/showcase/phoebe-a-hearst-museum.png
   desc: A gateway to publicly accessible metadata and media for the estimated 3.8 million objects at the museum, including images, audio, video, documentation, and 3D media.
   url: https://portal.hearstmuseum.berkeley.edu/
-
+- name: Pennsylvania State University Libraries' Catalog
+  id: psulib-catalog
+  img_url: images/showcase/psulib-catalog.png
+  desc: Pennsylvania State University Libraries's Catalog, used for searching the universtiy libraries' holdings including books, media and online resources.
+  url: https://catalog.libraries.psu.edu/
